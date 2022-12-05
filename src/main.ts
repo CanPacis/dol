@@ -155,13 +155,13 @@ const heartEquation = ({ x, y }: Vector) => {
   return equation <= 0;
 };
 
-const linearEquation = ({ x, y }: Vector) => {
-  return equalsTo(y, x);
-};
+// const linearEquation = ({ x, y }: Vector) => {
+//   return equalsTo(y, x);
+// };
 
-const quadraticEquation = ({ x, y }: Vector) => {
-  return equalsTo(y, Math.pow(x, 2));
-};
+// const quadraticEquation = ({ x, y }: Vector) => {
+//   return equalsTo(y, Math.pow(x, 2));
+// };
 
 function render() {
   context.clearRect(0, 0, context.canvas.width, context.canvas.height);
