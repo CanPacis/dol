@@ -141,10 +141,10 @@ function renderEquation(
   }
 }
 
-function equalsTo(a: number, b: number, tolarance?: number) {
-  let _tolarance = tolarance || toleranceSlider.value / 10000;
-  return Math.abs(a - b) <= _tolarance;
-}
+// function equalsTo(a: number, b: number, tolarance?: number) {
+//   let _tolarance = tolarance || toleranceSlider.value / 10000;
+//   return Math.abs(a - b) <= _tolarance;
+// }
 
 const heartEquation = ({ x, y }: Vector) => {
   // (x^2 + y^2 - 1) ^ 3 - x^2 * y^3 = 0
