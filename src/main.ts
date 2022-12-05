@@ -104,7 +104,7 @@ const { context, renderGuides } = createScene({
 });
 
 const stepSlider = createSlider(1, 20);
-const toleranceSlider = createSlider(100, 1000);
+// const toleranceSlider = createSlider(100, 1000);
 
 function pointToCoordiateFactory() {
   const xLineCount = xScale / 2 - 1;
